@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style2.css">
+  <title>Item Details</title>
+</head>
+<body>
+
+  <div class="item-details" id="itemDetails">
+    <!-- Initial content visible to the user -->
+    <p>This is a brief description of the item. Only a limited amount of content is visible initially.</p>
+    <!-- Full details that will be hidden initially -->
+    <p id="fullDetails" style="display: none;">This is the full description of the item. It includes all the details you need to know about the item. When the user clicks on "Read more", this content will be revealed.</p>
+  </div>
+
+  <!-- Button to toggle between displaying and hiding full details -->
+  <button id="readMoreBtn" onclick="toggleDetails()">Read more</button>
+
+  <script src="app2.js"></script>
+
+</body>
+</html>

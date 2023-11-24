@@ -1,0 +1,9 @@
+.item-details {
+    max-height: 100px; /* Set a maximum height for initial display */
+    overflow: hidden; /* Hide overflow content */
+    transition: max-height 0.3s ease-out; /* Smooth transition animation */
+  }
+
+  #readMoreBtn {
+    display: none; /* Initially hide the "Read more" button */
+  }
